@@ -1,0 +1,12 @@
+evidence/
+*.pcap
+*.pcapng
+*.raw
+*.mem
+*.vmem
+*.dmp
+*.E01
+*.img
+*.exe
+*.dll
+*.bin
