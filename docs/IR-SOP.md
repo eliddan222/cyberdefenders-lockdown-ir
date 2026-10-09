@@ -2,16 +2,16 @@
 ### A basic SOP for incident response(IR) to be utilized for this lab.
 
 ## 1.0 Purpose & Scope
-This document seeks to streamline and standardize the DFIR process during simulated incidents. This will allow for more uniform documentation of the response to the simulated incidents for easier reporting and analysis. It will also ensure the response process more closely alligns with real world production environment procedures, at least at a high level. This SOP was created specifically for simulated portfolio excercises and is not intended to represent an organization's production IR policy.
+This document seeks to streamline and standardize the DFIR process during simulated incidents. This will allow for more uniform documentation of the response to the simulated incidents for easier reporting and analysis. It will also ensure the response process more closely aligns with real world production environment procedures, at least at a high level. This SOP was created specifically for simulated portfolio exercises and is not intended to represent an organization's production IR policy.
 
-The scope of this document will be limited to simulated incidents invilving virtualized endpoints and provided forensic artifacts. It covers endpoint, network, memory, and malware investigation, alongside incident triage, analysis, scoping, containment, eradication, recovery, and post-incident review.
+The scope of this document will be limited to simulated incidents involving virtualized endpoints and provided forensic artifacts. It covers endpoint, network, memory, and malware investigation, alongside incident triage, analysis, scoping, containment, eradication, recovery, and post-incident review.
 
 Some actions performed during these simulations would typically require approval from management, system owners, legal teams, or other stakeholders in a production environment. For the purposes of the simulated environment, these actions will be treated as pre-approved and documented accordingly.
 
 ## 1.1 Roles & Responsibilities
 I am acting as the incident analyst and forensic examiner. As mentioned previously in production environments I would need approval for several actions, but those actions will be treated as pre-approved.
 
-The incident analyst will be responsible for verification that an incident has occured, collecting and analyzing evidence, limiting damage, determining root causes when possible, restoring systems, and documenting actions taken during response. 
+The incident analyst will be responsible for verification that an incident has occurred, collecting and analyzing evidence, limiting damage, determining root causes when possible, restoring systems, and documenting actions taken during response. 
 
 ## 2.0 Case Initiation
 1. Create a unique incident identifier.
@@ -25,7 +25,7 @@ The incident analyst will be responsible for verification that an incident has o
 9. Create and maintain case notes and an incident timeline for documentation.
 
 ## 2.1 Evidence Intake and Preservation
-1. Inventory all evidence recieved.
+1. Inventory all evidence received.
 2. Assign each evidence source a unique identifier.
 3. Record the original filename, file type, source, and other relevant information.
 4. Hash the evidence with SHA-256 for applicable forensic data prior to analysis.
