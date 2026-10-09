@@ -39,3 +39,10 @@ The provided packet capture and memory dump were able to be correlated to recons
 - NIST SP 800-61 Rev. 3
 - CISA Cybersecurity Incident & Vulnerability Response Playbooks
 - MITRE ATT&CK
+
+
+
+## Copyright
+© 2026 Elijah D. All rights reserved.
+
+This repository contains original analysis and documentation created for a CyberDefenders simulated lab. CyberDefenders and the Lockdown lab remain property of their respective owners.
