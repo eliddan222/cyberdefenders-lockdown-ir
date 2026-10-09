@@ -1,0 +1,7 @@
+vol.exe -f memdump.mem windows.info
+vol.exe -f memdump.mem windows.netscan
+vol.exe -f memdump.mem windows.pstree
+vol.exe -f memdump.mem windows.cmdline
+
+vol.exe -f memdump.mem windows.netscan | Select-String "10.0.2.4"
+vol.exe -f memdump.mem windows.cmdline | Select-String "updatenow"

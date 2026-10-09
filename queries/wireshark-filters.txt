@@ -1,0 +1,18 @@
+# Reconnaissance
+ip.src == 10.0.2.4 && ip.dst == 10.0.2.15 &&
+tcp.flags.syn == 1 && tcp.flags.ack == 0
+
+# HTTP requests
+ip.src == 10.0.2.4 && ip.dst == 10.0.2.15 && http.request
+
+# SMB Tree Connect
+ip.src == 10.0.2.4 && ip.dst == 10.0.2.15 && smb2.cmd == 3
+
+# SMB CREATE
+ip.src == 10.0.2.4 && ip.dst == 10.0.2.15 && smb2.cmd == 5
+
+# SMB WRITE
+ip.src == 10.0.2.4 && ip.dst == 10.0.2.15 && smb2.cmd == 9
+
+# Reverse-shell stream
+tcp.stream eq 1081
